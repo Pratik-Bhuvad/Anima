@@ -1,0 +1,26 @@
+{
+    "navLinks": [
+      {
+        "name": "The Best anime",
+        "path": "/bestanime"
+      },
+      {
+        "name": "Soon",
+        "path": "/soon"
+      },
+      {
+        "name": "Genres",
+        "path": "/genres"
+      },
+      {
+        "name": "Weekly program",
+        "path": "/weeklyprogram"
+      },
+      {
+        "name": "Home",
+        "path": "/"
+      }
+    ],
+    "logo":"https://rzw-gh.github.io/movie-streaming-website/images/logo/nav-logo.svg"
+  }
+  
