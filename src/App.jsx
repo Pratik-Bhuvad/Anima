@@ -5,12 +5,10 @@ import Navbar from './MainComponents/Navbar'
 const App = () => {
   return (
     <Router>
-      <div>
         <Navbar />
         <Routes>
           
         </Routes>
-      </div>
     </Router>
   )
 }
