@@ -32,7 +32,8 @@ const Navbar = () => {
 
   return (
     <nav className='h-[3.5rem] w-screen bg-[#2a2b2e99] z-40 sticky top-0 flex items-center justify-between overflow-x-hidden md:h-[4.5rem] '>
-      <div className="profile w-full h-full flex items-center justify-evenly px-3 *:h-3/5 *:flex *:items-center lg:w-2/12">
+      <div className="profile w-full h-full flex items-center justify-between px-3 *:h-3/5 *:flex *:items-center lg:w-2/12">
+      <div className='w-2/4 flex items-center justify-evenly lg:w-[120%]'>
         <span className='flex items-center justify-evenly w-[27%] cursor-pointer'>
           <i className="fa-solid fa-angle-down lg:fa-xl" style={{ color: 'white' }}></i>
           <img src="https://rzw-gh.github.io/movie-streaming-website/images/profile/01.png" alt="" className='rounded-full w-9 h-9 lg:w-11 lg:h-11' />
@@ -40,16 +41,17 @@ const Navbar = () => {
         <Link to="/"><i className="fa-sharp fa-regular fa-bookmark fa-xl"></i></Link>
         <Link to="/"><i className="fa-regular fa-sun fa-xl" style={{ color: 'white' }}></i></Link>
         <span onClick={() => search ? setSearch(false) : setSearch(true)}><i className="fa-solid fa-magnifying-glass fa-flip-horizontal fa-xl cursor-pointer" style={{ color: 'white' }}></i></span>
-        <span>
+        </div>
+        <span className='w-1/3 flex items-center justify-around'>
           <Link to="/"> <img src={navData.logo} alt="" className='w-10 h-10 lg:!hidden' /> </Link>
-          <span onClick={() => setShow(1)} className='mt-1'><i className="fa-solid fa-bars lg:!hidden" style={{ color: 'grey' }}></i></span>
+          <span onClick={() => setShow(0.1)} className='mt-1'><i className="fa-solid fa-bars fa-xl lg:!hidden" style={{ color: 'grey' }}></i></span>
         </span>
       </div>
       {search &&
         <input ref={searchRef} type="text" name="" id="" className='w-[90vw] fixed left-5 top-16 text-xl rounded-sm p-1 px-3 border-2 border-white bg-transparent text-white lg:w-[30%] lg:top-[15px] lg:left-[20%]' />
       }
       {show &&
-        <div className='links w-9/12 h-[85vh] flex flex-col items-end fixed top-0 px-7 bg-[#1d1d1dfd] lg:bg-transparent ease-in-out duration-500 lg:flex-row-reverse lg:items-center lg:h-[4.5rem] lg:w-5/12' style={{ right: `${show}%` }}>
+        <div className='links w-9/12 h-[80vh] flex flex-col items-end fixed top-0 px-7 bg-[#1d1d1dfd] lg:bg-transparent ease-in-out duration-500 lg:flex-row-reverse lg:items-center lg:h-[4.5rem] lg:w-5/12' style={{ right: `${show}%` }}>
           <span className='w-full flex items-center justify-between lg:w-auto lg:ml-4'>
             <i className="fa-solid fa-xmark fa-xl lg:!hidden" style={{ color: 'grey' }} onClick={() => setShow(-100)}></i>
             <Link to="/"> <img src={navData.logo} alt="" className='lg:object-cover inline-block w-16 my-2' /> </Link>

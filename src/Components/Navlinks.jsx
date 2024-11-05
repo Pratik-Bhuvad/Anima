@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navlinks = ({ link }) => {
+const Navlinks = ({ link}) => {
   return (
     <Link to={link.path} className='lg:text-xl flex items-center font-mono tracking-tight hover:text-[#ffa629] ease-in-out'>
       {link.name}
