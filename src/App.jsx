@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className='mt-[4.5rem] box-border h-[500vh]'>
+      <div className='box-border overflow-hidden'>
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
