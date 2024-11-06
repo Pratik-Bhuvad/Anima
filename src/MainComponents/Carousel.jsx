@@ -26,7 +26,7 @@ const Carousel = () => {
     speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     rtl:true,
   };
@@ -46,10 +46,10 @@ const Carousel = () => {
   };
 
   return (
-    <div className='h-[80vh] lg:h-[calc(100vh-4.5rem)] font-mono overflow-hidden relative'>
+    <div className='h-[80vh] lg:h-[calc(80vh-4.5rem)] font-mono overflow-hidden relative'>
       <Slider ref={sliderRef} {...settings}>
         {images.map((image, index) => (
-          <div key={index} className='h-[80vh] flex justify-center items-end relative  bg-gradient-to-t from-black via-transparent to-transparent lg:h-[calc(100vh-4.5rem)]'>
+          <div key={index} className='h-[80vh] flex justify-center items-end relative  bg-gradient-to-t from-black via-transparent to-transparent lg:h-[calc(80vh-4.5rem)]'>
             <div className='absolute inset-0'  style={{ background: `linear-gradient(90deg,rgba(24,24,24,0.9) 10%,rgba(24,24,24,0.8) 25%,rgba(24,24,24,0.7) 35%,rgba(24,24,24,0.6) 45%,rgba(24,24,24,0.5) 55%, rgba(24,24,24,0.3) 80%, rgba(24,24,24,0) 100%), url(${image.url}) center/cover no-repeat`,  zIndex: -1  }} />
             <div id="animeInfo" className='w-full h-full flex flex-col justify-end pl-12 pb-40 *:my-3 lg:pb-60 lg:w-1/5'>
               <h1 id="title" className='font-bold text-3xl tracking-tighter lg:text=[2vw]'>{image.title}</h1>
