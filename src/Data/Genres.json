@@ -1,0 +1,104 @@
+{
+    "genres": [
+        {
+            "name": "Romance",
+            "path": "/romance"
+        },
+        {
+            "name": "Fantasy",
+            "path": "/fantasy"
+        },
+        {
+            "name": "Isekai",
+            "path": "/isekai"
+        },
+        {
+            "name": "Shounen",
+            "path": "/shounen"
+        },
+        {
+            "name": "Action",
+            "path": "/action"
+        },
+        {
+            "name": "Drama",
+            "path": "/drama"
+        },
+        {
+            "name": "Comedy",
+            "path": "/comedy"
+        },
+        {
+            "name": "Seinen",
+            "path": "/seinen"
+        },
+        {
+            "name": "Adventure",
+            "path": "/adventure"
+        },
+        {
+            "name": "Magical",
+            "path": "/magical"
+        },
+        {
+            "name": "Science Fiction",
+            "path": "/sci-fi"
+        },
+        {
+            "name": "A Slice of Life",
+            "path": "/slice-of-life"
+        },
+        {
+            "name": "Vampire",
+            "path": "/vampire"
+        },
+        {
+            "name": "Sports",
+            "path": "/sports"
+        },
+        {
+            "name": "A School",
+            "path": "/school"
+        },
+        {
+            "name": "Childish",
+            "path": "/childish"
+        },
+        {
+            "name": "The Musical",
+            "path": "/musical"
+        },
+        {
+            "name": "Samurai",
+            "path": "/samurai"
+        },
+        {
+            "name": "Mystery",
+            "path": "/mystery"
+        },
+        {
+            "name": "Ecchi",
+            "path": "/ecchi"
+        },
+        {
+            "name": "Horror",
+            "path": "/horror"
+        },
+        {
+            "name": "Transcendence",
+            "path": "/transcendence"
+        },
+        {
+            "name": "Demons",
+            "path": "/demons"
+        },
+        {
+            "name": "Scary",
+            "path": "/scary"
+        },
+        {
+            "name": "Historical",
+            "path": "/historical"
+        }
+    ]
+}

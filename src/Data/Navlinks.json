@@ -10,7 +10,7 @@
       },
       {
         "name": "Genres",
-        "path": "/genres"
+        "path": "/"
       },
       {
         "name": "Weekly program",
@@ -19,6 +19,53 @@
       {
         "name": "Home",
         "path": "/"
+      }
+    ],
+    "profileLinks":[
+      {
+        "name":"Watch list",
+        "path":"/watchlist",
+        "icon":"fa-bookmark"
+      },
+      {
+        "name":"Watch history",
+        "path":"/watchhistory",
+        "icon":"fa-clock"
+      },
+      {
+        "name":"Notifications",
+        "path":"/notifications",
+        "icon":"fa-bell"
+      },
+      {
+        "name":"Awards",
+        "path":"/awards",
+        "icon":"fa-star"
+      },
+      {
+        "name":"Discount Code",
+        "path":"/discountcode",
+        "icon":"fa-gift"
+      },
+      {
+        "name":"Settings",
+        "path":"/setting",
+        "icon":"fa-gear"
+      },
+      {
+        "name":"Support",
+        "path":"/support",
+        "icon":"fa-headset"
+      },
+      {
+        "name":"Frequntly asked questions",
+        "path":"/faq",
+        "icon":"fa-circle-question"
+      },
+      {
+        "name":"Departure",
+        "path":"/departure",
+        "icon":"fa-door-open"
       }
     ],
     "logo":"https://rzw-gh.github.io/movie-streaming-website/images/logo/nav-logo.svg"
