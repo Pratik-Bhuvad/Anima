@@ -1,0 +1,96 @@
+{
+    "animes": [
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/01.png",
+            "title": "Castlevania"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/02.png",
+            "title": "Attack on Titan"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/03.png",
+            "title": "Jujutsu Kaisen"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/04.png",
+            "title": "Vinland Saga"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/05.png",
+            "title": "Tokyo Ghoul"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/06.png",
+            "title": "Mushoku Tensei"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/07.png",
+            "title": "Re:Zero"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/08.png",
+            "title": "Frieren"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/09.png",
+            "title": "Kaiju No.8"
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/10.png",
+            "title": "Oshi no Ko"
+        }
+    ],
+    "posters": [
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/01.png",
+            "title": "Castlevania",
+            "rating": 8.7
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/02.png",
+            "title": "Attack on Titan",
+            "rating": 9.9
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/03.png",
+            "title": "Jujutsu Kaisen",
+            "rating": 9.2
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/04.png",
+            "title": "Vinland Saga",
+            "rating": 8.9
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/05.png",
+            "title": "Tokyo Ghoul",
+            "rating": 8.3
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/06.png",
+            "title": "Mushoku Tensei",
+            "rating": 8.8
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/07.png",
+            "title": "Re:Zero",
+            "rating": 9.1
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/08.png",
+            "title": "Frieren",
+            "rating": 8.5
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/09.png",
+            "title": "Kaiju No.8",
+            "rating": 8.6
+        },
+        {
+            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/10.png",
+            "title": "Oshi no Ko",
+            "rating": 9.0
+        }
+    ]
+}

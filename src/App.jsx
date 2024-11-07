@@ -6,8 +6,8 @@ import Home from './Pages/Home'
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <div className='box-border overflow-hidden'>
+      <Navbar/>
+      <div className='w-screen box-border lg:w-[calc(100vw-17px)] '>
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>

@@ -61,7 +61,7 @@ const Navbar = () => {
   }, [search])
 
   return (
-    <nav className='h-[3.5rem] w-screen bg-[#2a2b2e99] z-40 sticky top-0 flex items-center justify-between overflow-x-hidden md:h-[4.5rem] '>
+    <nav className='h-[3.5rem] w-[calc(100vw-17 px)] bg-[#2a2b2e99] z-40 sticky top-0 flex items-center justify-between overflow-x-hidden md:h-[4.5rem]'>
       <div className="profile w-full h-full flex items-center justify-between px-3 lg:w-2/12">
         <div className="w-2/4 flex items-center justify-evenly lg:w-[120%]">
           <span className="flex items-center justify-between w-[30%] cursor-pointer" onClick={() => { setShowProfileLinks(!showProfileLinks) }} onMouseEnter={() => setIsProfileHovered(true)} onMouseLeave={() => setIsProfileHovered(false)} >
