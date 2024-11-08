@@ -1,96 +1,334 @@
 {
     "animes": [
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/01.png",
-            "title": "Castlevania"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/02.png",
-            "title": "Attack on Titan"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/03.png",
-            "title": "Jujutsu Kaisen"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/04.png",
-            "title": "Vinland Saga"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/05.png",
-            "title": "Tokyo Ghoul"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/06.png",
-            "title": "Mushoku Tensei"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/07.png",
-            "title": "Re:Zero"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/08.png",
-            "title": "Frieren"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/09.png",
-            "title": "Kaiju No.8"
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/10.png",
-            "title": "Oshi no Ko"
-        }
-    ],
-    "posters": [
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/01.png",
-            "title": "Castlevania",
-            "rating": 8.7
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/02.png",
-            "title": "Attack on Titan",
-            "rating": 9.9
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/03.png",
-            "title": "Jujutsu Kaisen",
-            "rating": 9.2
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/04.png",
-            "title": "Vinland Saga",
-            "rating": 8.9
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/05.png",
-            "title": "Tokyo Ghoul",
-            "rating": 8.3
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/06.png",
-            "title": "Mushoku Tensei",
-            "rating": 8.8
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/07.png",
-            "title": "Re:Zero",
-            "rating": 9.1
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/08.png",
-            "title": "Frieren",
-            "rating": 8.5
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/09.png",
-            "title": "Kaiju No.8",
-            "rating": 8.6
-        },
-        {
-            "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/10.png",
-            "title": "Oshi no Ko",
-            "rating": 9.0
-        }
-    ]
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/01.png",
+                "title": "Castlevania",
+                "rating": 8.7,
+                "views": "10.2K",
+                "status": "playing",
+                "seasons": 4,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Dark-Fantasy",
+                    "Horror"
+                ],
+                "broadcast_date": "07/07/1400",
+                "type": "Serial",
+                "card_description": "A gritty animated adaptation of the iconic Castlevania video game series."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/02.png",
+                "title": "Attack on Titan",
+                "rating": 9.9,
+                "views": "15.8K",
+                "status": "playing",
+                "seasons": 4,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Mystery",
+                    "Post-apocalyptic"
+                ],
+                "broadcast_date": "04/07/1400",
+                "type": "Serial",
+                "card_description": "Humanity fights for survival against massive, man-eating titans that have overrun the world."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/03.png",
+                "title": "Jujutsu Kaisen",
+                "rating": 9.2,
+                "views": "14.3K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Supernatural"
+                ],
+                "broadcast_date": "10/02/1400",
+                "type": "Serial",
+                "card_description": "A student is recruited into a secret organization to fight against powerful cursed spirits."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/04.png",
+                "title": "Vinland Saga",
+                "rating": 8.9,
+                "views": "11.7K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Historical"
+                ],
+                "broadcast_date": "08/12/1400",
+                "type": "Serial",
+                "card_description": "An epic Viking saga of revenge, redemption, and the search for a new homeland."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/05.png",
+                "title": "Tokyo Ghoul",
+                "rating": 8.3,
+                "views": "13.1K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Horror",
+                    "Supernatural"
+                ],
+                "broadcast_date": "03/15/1400",
+                "type": "Serial",
+                "card_description": "A university student's life is changed forever after a horrific encounter with supernatural ghouls."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/06.png",
+                "title": "Mushoku Tensei",
+                "rating": 8.7,
+                "views": "12.5K",
+                "status": "playing",
+                "seasons": 3,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy"
+                ],
+                "broadcast_date": "02/16/1400",
+                "type": "Serial",
+                "card_description": "The story of the last survivor of the infamous Belmont family trying to prevent the destruction of Eastern Europe."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/07.png",
+                "title": "Re:Zero",
+                "rating": 9.1,
+                "views": "13.8K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Psychological",
+                    "Drama",
+                    "Fantasy",
+                    "Thriller"
+                ],
+                "broadcast_date": "01/10/1400",
+                "type": "Serial",
+                "card_description": "A man is trapped in a parallel world and must repeatedly redo his life in order to survive and protect those he cares about."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/08.png",
+                "title": "Frieren",
+                "rating": 8.5,
+                "views": "10.9K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Adventure",
+                    "Fantasy",
+                    "Slice of Life"
+                ],
+                "broadcast_date": "09/23/1400",
+                "type": "Serial",
+                "card_description": "A powerful mage embarks on a journey of self-discovery and reflection on her long life."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/09.png",
+                "title": "Kaiju No.8",
+                "rating": 8.6,
+                "views": "11.2K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Action",
+                    "Sci-fi",
+                    "Kaiju"
+                ],
+                "broadcast_date": "12/05/1400",
+                "type": "Serial",
+                "card_description": "A man with a dangerous monstrous alter ego struggles to hide his true identity from the world."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/10.png",
+                "title": "Oshi no Ko",
+                "rating": 9.0,
+                "views": "12.8K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Drama",
+                    "Supernatural",
+                    "Psychological"
+                ],
+                "broadcast_date": "05/20/1400",
+                "type": "Serial",
+                "card_description": "A doctor is reincarnated as the child of his favorite idol, leading to a complex web of relationships."
+            }
+        ],
+        "posters": [
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/01.png",
+                "title": "Castlevania",
+                "rating": 8.7,
+                "views": "10.2K",
+                "status": "playing",
+                "seasons": 4,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Dark-Fantasy",
+                    "Horror"
+                ],
+                "broadcast_date": "07/07/1400",
+                "type": "Serial",
+                "card_description": "A gritty animated adaptation of the iconic Castlevania video game series."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/02.png",
+                "title": "Attack on Titan",
+                "rating": 9.9,
+                "views": "15.8K",
+                "status": "playing",
+                "seasons": 4,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Mystery",
+                    "Post-apocalyptic"
+                ],
+                "broadcast_date": "04/07/1400",
+                "type": "Serial",
+                "card_description": "Humanity fights for survival against massive, man-eating titans that have overrun the world."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/03.png",
+                "title": "Jujutsu Kaisen",
+                "rating": 9.2,
+                "views": "14.3K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Supernatural"
+                ],
+                "broadcast_date": "10/02/1400",
+                "type": "Serial",
+                "card_description": "A student is recruited into a secret organization to fight against powerful cursed spirits."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/04.png",
+                "title": "Vinland Saga",
+                "rating": 8.9,
+                "views": "11.7K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Historical"
+                ],
+                "broadcast_date": "08/12/1400",
+                "type": "Serial",
+                "card_description": "An epic Viking saga of revenge, redemption, and the search for a new homeland."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/05.png",
+                "title": "Tokyo Ghoul",
+                "rating": 8.3,
+                "views": "13.1K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Action",
+                    "Dark-Fantasy",
+                    "Horror",
+                    "Supernatural"
+                ],
+                "broadcast_date": "03/15/1400",
+                "type": "Serial",
+                "card_description": "A university student's life is changed forever after a horrific encounter with supernatural ghouls."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/06.png",
+                "title": "Mushoku Tensei",
+                "rating": 8.7,
+                "views": "12.5K",
+                "status": "playing",
+                "seasons": 3,
+                "genre": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy"
+                ],
+                "broadcast_date": "02/16/1400",
+                "type": "Serial",
+                "card_description": "The story of the last survivor of the infamous Belmont family trying to prevent the destruction of Eastern Europe."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/07.png",
+                "title": "Re:Zero",
+                "rating": 9.1,
+                "views": "13.8K",
+                "status": "playing",
+                "seasons": 2,
+                "genre": [
+                    "Psychological",
+                    "Drama",
+                    "Fantasy",
+                    "Thriller"
+                ],
+                "broadcast_date": "01/10/1400",
+                "type": "Serial",
+                "card_description": "A man is trapped in a parallel world and must repeatedly redo his life in order to survive and protect those he cares about."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/08.png",
+                "title": "Frieren",
+                "rating": 8.5,
+                "views": "10.9K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Adventure",
+                    "Fantasy",
+                    "Slice of Life"
+                ],
+                "broadcast_date": "09/23/1400",
+                "type": "Serial",
+                "card_description": "A powerful mage embarks on a journey of self-discovery and reflection on her long life."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/09.png",
+                "title": "Kaiju No.8",
+                "rating": 8.6,
+                "views": "11.2K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Action",
+                    "Sci-fi",
+                    "Kaiju"
+                ],
+                "broadcast_date": "12/05/1400",
+                "type": "Serial",
+                "card_description": "A man with a dangerous monstrous alter ego struggles to hide his true identity from the world."
+            },
+            {
+                "url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/10.png",
+                "title": "Oshi no Ko",
+                "rating": 9.0,
+                "views": "12.8K",
+                "status": "playing",
+                "seasons": 1,
+                "genre": [
+                    "Drama",
+                    "Supernatural",
+                    "Psychological"
+                ],
+                "broadcast_date": "05/20/1400",
+                "type": "Serial",
+                "card_description": "A doctor is reincarnated as the child of his favorite idol, leading to a complex web of relationships."
+            }
+        ]
 }

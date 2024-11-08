@@ -36,9 +36,9 @@ const CardCarosuel = (props) => {
     dots: false,
     arrows: false,
     infinite: false,
-    speed: 500,
+    speed: 700,
     slidesToShow: slidesToShow,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
   };
 
   const handleSliderLeft = (event) => {
@@ -59,12 +59,12 @@ const CardCarosuel = (props) => {
       }
     }
   };
-
+  
   return (
-    <div className='w-full h-[50vh] flex flex-col justify-between box-border backdrop-blur-md'>
+    <div className='w-full h-[50vh] flex flex-col justify-between box-border backdrop-blur-md mb-12'>
       <div id="head" className='w-full flex items-center justify-between px-5 lg:px-16'> <View /> <h2 className='text-xl font-bold lg:text-3xl'>{props.title}</h2> </div>
-      <div id="slider" className='w-full h-4/5 relative flex justify-center items-center pl-8'>
-        <Slider ref={sliderRef} {...settings} className='w-[95%] !flex !flex-row-reverse !items-center md:w-[90%] lg:w-[95%]'>
+      <div id="slider" className='w-full h-full relative flex justify-center items-center pl-8 '>
+        <Slider ref={sliderRef} {...settings} className='w-[95%] !flex !flex-row-reverse !items-center md:w-[90%] lg:w-[95%] z-50'>
           {animeData[props.anime].map((anime, index) => (
             <Card key={index} anime={anime} />
           ))}
