@@ -70,7 +70,7 @@ const Card = ({ anime }) => {
                 </h1>
                 <h1>Boradcast date: {anime.broadcast_date}</h1>
               </div>
-              <div id="buttons" className='w-full px-2 pr-4 h-16 lg:h-20 flex items-center justify-between absolute -bottom-4 lg:-bottom-5 *:bg-[#ffa629] *:px-2 *:py-1 *:rounded-md '>
+              <div id="buttons" className='w-full px-2 pr-4 h-16 lg:h-20 flex items-center justify-between absolute -bottom-4 lg:-bottom-4 *:bg-[#ffa629] *:px-2 *:py-1 *:rounded-md '>
                 <button className='w-1/4 h-3/5 flex items-center justify-center'><i className="fa-solid fa-share-nodes lg:fa-xl"></i></button>
                 <button className='w-3/5 h-3/5 flex items-center justify-center'>view</button>
               </div>
