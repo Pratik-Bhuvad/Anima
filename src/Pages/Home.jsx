@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='w-full'>
       <HeroCarousel />
-      <section className='' style={{background:'linear-gradient(transparent 1%,#181818,#181818,#181818,#181818)'}}>
+      <section className='' style={{background:'linear-gradient(transparent 1%,#181818,#181818,#181818,#181818,#181818,#181818,transparent)'}}>
         <CardCarosuel anime='posters' title='Playing' />
         <CardCarosuel anime='posters' title='The hottest of the week' />
         <Topshows anime='animes' title="Serials" />

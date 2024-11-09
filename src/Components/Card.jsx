@@ -30,7 +30,7 @@ const Card = ({ anime }) => {
             <div className="relative w-full h-full rounded-2xl overflow-hidden">
               <img src={anime.url} alt={anime.title || 'Anime cover'} className="h-full w-full object-cover" />
               <span className="md:group-hover:invisible">
-                <div className="absolute top-2 left-2 bg-black/50 text-white px-2 py-1 rounded-lg">
+                <div className="absolute top-2 left-2  text-white px-2 py-1 rounded-lg">
                   <Rating rated={anime.rating} />
                 </div>
               </span>

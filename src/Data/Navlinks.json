@@ -68,6 +68,32 @@
         "icon":"fa-door-open"
       }
     ],
+    "footerlinks":[
+      {
+        "name":"DMCA",
+        "path":"/"
+      },
+      {
+        "name":"User account",
+        "path":"/"
+      },
+      {
+        "name":"Buy a Scubscription",
+        "path":"/"
+      },
+      {
+        "name":"Services status",
+        "path":"/"
+      },
+      {
+        "name":"Rules and FAQs",
+        "path":"/"
+      },
+      {
+        "name":"Support",
+        "path":"/"
+      }
+    ],
     "logo":"https://rzw-gh.github.io/movie-streaming-website/images/logo/nav-logo.svg"
   }
   
