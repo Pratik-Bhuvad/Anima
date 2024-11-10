@@ -26,9 +26,9 @@ const Card = ({ anime }) => {
     <div className="pt-10">
       <div className="relative h-[40vh] w-10/12 overflow-visible" ref={cardRef}>
         <div className="h-full flex flex-col justify-between">
-          <Link to={`/`} className="w-full h-[80%] rounded-2xl relative md:h-[86%] group overflow-visible" onMouseEnter={() => setShowInfo(true)} onMouseLeave={() => setShowInfo(false)} >
+          <Link to={`/detail/${anime.id}`} className="w-full h-[80%] rounded-2xl relative md:h-[86%] group overflow-visible" onMouseEnter={() => setShowInfo(true)} onMouseLeave={() => setShowInfo(false)} >
             <div className="relative w-full h-full rounded-2xl overflow-hidden">
-              <img src={anime.url} alt={anime.title || 'Anime cover'} className="h-full w-full object-cover" />
+              <img src={anime.card_url} alt={anime.title || 'Anime cover'} className="h-full w-full object-cover" />
               <span className="md:group-hover:invisible">
                 <div className="absolute top-2 left-2  text-white px-2 py-1 rounded-lg">
                   <Rating rated={anime.rating} />

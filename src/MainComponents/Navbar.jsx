@@ -63,8 +63,8 @@ const Navbar = () => {
   return (
     <nav className='h-[3.5rem] w-[calc(100vw-17 px)] bg-[#2a2b2e99] z-40 sticky top-0 flex items-center justify-between overflow-x-hidden md:h-[4.5rem]'>
       <div className="profile w-full h-full flex items-center justify-between px-3 lg:w-2/12">
-        <div className="w-2/4 flex items-center justify-evenly lg:w-[120%]">
-          <span className="flex items-center justify-between w-[30%] cursor-pointer" onClick={() => { setShowProfileLinks(!showProfileLinks) }} onMouseEnter={() => setIsProfileHovered(true)} onMouseLeave={() => setIsProfileHovered(false)} >
+        <div className="w-3/5 flex items-center justify-evenly lg:w-[120%]">
+          <span className="flex items-center justify-between w-[32%] cursor-pointer" onClick={() => { setShowProfileLinks(!showProfileLinks) }} onMouseEnter={() => setIsProfileHovered(true)} onMouseLeave={() => setIsProfileHovered(false)} >
             <i className="fa-solid fa-angle-down lg:fa-xl" style={{ color: 'white' }}></i>
             <img src="https://rzw-gh.github.io/movie-streaming-website/images/profile/01.png" alt="" className="rounded-full w-9 h-9 lg:w-11 lg:h-11" />
           </span>
@@ -79,13 +79,13 @@ const Navbar = () => {
 
         {/* Profile Dropdown */}
         {showProfileLinks && (
-          <div className="fixed w-[53%] h-[70vh] top-[3.7rem] left-6 flex flex-col items-center bg-[#242527] lg:w-[12.5vw] lg:top-[4.5rem] lg:left-10" onMouseEnter={() => setIsProfileHovered(true)} onMouseLeave={() => setIsProfileHovered(false)} >
+          <div className="fixed w-[53%] h-[70vh] top-[3.7rem] left-6 flex flex-col items-center bg-[#242527] lg:w-[12.5vw] lg:top-[4.5rem] lg:left-10 z-60" onMouseEnter={() => setIsProfileHovered(true)} onMouseLeave={() => setIsProfileHovered(false)} >
             <div id="sub" className="flex flex-col items-center justify-evenly w-full h-[30%] border-b-[0.3px]">
               <img src="https://rzw-gh.github.io/movie-streaming-website/images/profile/01.png" alt="" className="object-contain w-24 h-24 rounded-full" />
               <h2>Username</h2>
-              <Link to="/sub" className="w-10/12 h-1/6 flex items-center justify-center rounded-full tracking-wide bg-[#ffa629] text-white" > Buy a subscription <i className="fa-solid fa-crown ml-1"></i> </Link>
+              <Link to="/sub" className="w-11/12 h-1/6 flex items-center justify-center rounded-full tracking-wide bg-[#ffa629] text-white text-xs lg:text-lg mb-1" > Buy a subscription <i className="fa-solid fa-crown ml-1"></i> </Link>
             </div>
-            <div id="profileLinks" className="w-full h-[70%] flex flex-col justify-around">
+            <div id="profileLinks" className="w-full h-[70%] flex flex-col justify-around *:text-xs lg:*:text-lg">
               {navData.profileLinks.map((link, index) => (
                 <Link onClick={() => setShowProfileLinks(false)} className={`w-full h-2/4 flex items-center justify-end text-lg text-end font-mono tracking-tighter pr-3 hover:text-[#ffa629] ease-in-out duration-150 ${(index === 2 || index === 4 || index === 7) ? 'border-b-[0.3px]' : 'border-none'}`} to={link.path} key={index}>
                   {link.name}
@@ -97,7 +97,7 @@ const Navbar = () => {
         )}
       </div>
       {search &&
-        <input ref={searchRef} type="text" name="" id="" className='w-[90vw] fixed left-5 top-16 text-xl rounded-sm p-1 px-3 border-2 border-white bg-transparent text-white lg:w-[30%] lg:top-[15px] lg:left-[20%]' />
+        <input ref={searchRef} type="text" name="" id="" className='w-[90vw] fixed left-5 top-16 text-xl rounded-sm p-1 px-3 border-2 border-white bg-[rgba(0,0,0,0.5)] text-white lg:w-[30%] lg:top-[15px] lg:left-[20%]' />
       }
       {show &&
         <div className='links w-9/12  h-[80vh] flex flex-col items-end fixed top-0 px-7 bg-[#1d1d1dfd] lg:bg-transparent ease-in-out duration-500 lg:flex-row-reverse lg:items-center lg:h-[4.5rem] lg:w-5/12' style={{ right: `${show}%` }}>

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Shows = ({ anime }) => {
   return (
-    <div className='w-full h-full '>
-      <Link to={`/`} className='h-full'>
+    <div className='w-full h-full'>
+      <Link to={`/detail/${anime.id}`} className='h-full'>
         <div className='relative w-full h-[90%] rounded-2xl group'>
-        <img src={anime.url} alt={anime.title} className='h-full object-contain rounded-3xl' loading='lazy'/>
-          <div className="absolute top-4 left-1  text-white px-2 py-1 rounded-lg z-50 lg::top-2">
+        <img src={anime.backdrop_url} alt={anime.title} className='h-full object-contain rounded-3xl' loading='lazy'/>
+          <div className="absolute top-4 left-1  text-white px-2 py-1 rounded-lg z-30 lg::top-2">
             <Rating rated={anime.rating} />
           </div>
           <div id="info" className='w-full h-full absolute top-0 rounded-2xl flex justify-center invisible z-10 group-hover:visible bg-[#1b1b1bb4]'>

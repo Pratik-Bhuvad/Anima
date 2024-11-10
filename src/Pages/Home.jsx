@@ -6,14 +6,14 @@ import Topshows from '../MainComponents/Topshows'
 const Home = () => {
   return (
     <div className='w-full'>
-      <HeroCarousel />
+      <HeroCarousel slides={10} />
       <section className='' style={{background:'linear-gradient(transparent 1%,#181818,#181818,#181818,#181818,#181818,#181818,transparent)'}}>
-        <CardCarosuel anime='posters' title='Playing' />
-        <CardCarosuel anime='posters' title='The hottest of the week' />
-        <Topshows anime='animes' title="Serials" />
-        <Topshows anime='animes' title="Movies" />
-        <CardCarosuel anime='posters' title='Suggestion' />
-        <CardCarosuel anime='posters' title='Soon' />
+        <CardCarosuel start={0} end={10} title='Playing' />
+        <CardCarosuel start={0} end={10} title='The hottest of the week' />
+        <Topshows start={0} end={8} title="Serials" />
+        <Topshows start={2} end={10} title="Movies" />
+        <CardCarosuel start={10} end={20} title='Suggestion' />
+        <CardCarosuel start={10} end={20} title='Soon' />
       </section>
     </div>
   )
