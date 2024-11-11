@@ -299,6 +299,7 @@
             "type": "Serial",
             "card_description": "A teenager becomes a demon-human hybrid to protect humanity.",
             "detail_description": "Akira Fudo becomes a Devilman to protect humanity from demons. As he fights alongside his friend Ryo, he struggles to maintain his humanity while facing increasing violence and moral complexity in a world descending into chaos.",
+            "backdrop_url": "/backdrops/11.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/11.png"
         },
         {
@@ -352,6 +353,7 @@
             "type": "Serial",
             "card_description": "A teenage Soul Reaper battles evil spirits while protecting the living world.",
             "detail_description": "Ichigo Kurosaki gains the powers of a Soul Reaper from Rukia Kuchiki. Now he must balance his life as a high school student while protecting both the living world and Soul Society from evil spirits called Hollows, leading to increasingly dangerous battles and revelations about his own heritage.",
+            "backdrop_url": "/backdrops/13.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/13.png"
         },
         {
@@ -378,6 +380,7 @@
             "type": "Serial",
             "card_description": "Two brothers seek the Philosopher's Stone to restore their bodies after a failed alchemical ritual.",
             "detail_description": "Edward and Alphonse Elric, two young alchemist brothers, attempt to resurrect their dead mother using forbidden alchemy. When the ritual fails, Ed loses an arm and leg while Al loses his entire body, his soul bound to a suit of armor. They embark on a journey to find the Philosopher's Stone to restore their bodies, uncovering a nationwide conspiracy in the process.",
+            "backdrop_url": "/backdrops/14.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/14.png"
         },
         {
@@ -404,6 +407,7 @@
             "type": "Serial",
             "card_description": "A young ninja seeks recognition and dreams of becoming the leader of his village.",
             "detail_description": "Naruto Uzumaki, a mischievous ninja with the Nine-Tailed Fox sealed within him, dreams of becoming the Hokage, his village's leader and strongest ninja. Through determination and loyal friendships, he faces increasingly powerful enemies while uncovering the truth about his world's complicated history and his own heritage.",
+            "backdrop_url": "/backdrops/15.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/15.png"
         },
         {
@@ -430,6 +434,7 @@
             "type": "Serial",
             "card_description": "A young boy takes the Hunter Exam to find his father while making friends and facing dangerous challenges.",
             "detail_description": "Gon Freecss aspires to become a Hunter, an elite member of society, hoping to find his father. Along his journey, he makes close friends including Killua, Kurapika, and Leorio, each with their own motivations. Together they face increasingly difficult challenges that test their abilities, friendship, and resolve.",
+            "backdrop_url": "/backdrops/16.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/16.png"
         },
         {
@@ -456,6 +461,7 @@
             "type": "Serial",
             "card_description": "A self-proclaimed mad scientist accidentally invents time travel, leading to devastating consequences.",
             "detail_description": "Rintaro Okabe, a self-proclaimed mad scientist, accidentally discovers a way to send messages to the past using a modified microwave. As he and his friends experiment with their discovery, they become entangled in a conspiracy involving SERN and must face the dire consequences of changing the past.",
+            "backdrop_url": "/backdrops/17.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/17.png"
         },
         {
@@ -482,6 +488,7 @@
             "type": "Serial",
             "card_description": "An orphaned girl discovers a family cursed to transform into zodiac animals when embraced.",
             "detail_description": "Tohru Honda, recently orphaned, encounters the Soma family, who are cursed to transform into Chinese zodiac animals when hugged by the opposite sex. As she becomes involved in their lives, she helps them deal with their curse while uncovering dark family secrets and finding love.",
+            "backdrop_url": "/backdrops/18.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/18.png"
         },
         {
@@ -508,6 +515,7 @@
             "type": "Serial",
             "card_description": "A lone mercenary seeks revenge against his former friend who betrayed everything he held dear.",
             "detail_description": "Guts, a former mercenary now known as the Black Swordsman, seeks revenge against his former leader and friend Griffith, who sacrificed the Band of the Hawk during a demonic ritual to become a powerful demon lord. The dark fantasy tale explores themes of fate, free will, and the nature of humanity.",
+            "backdrop_url": "/backdrops/19.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/19.png"
         },
         {
@@ -534,6 +542,7 @@
             "type": "Serial",
             "card_description": "A brilliant surgeon's life unravels after saving a young boy who grows up to be a serial killer.",
             "detail_description": "Dr. Kenzo Tenma, a brilliant neurosurgeon in Germany, chooses to save a young boy instead of the mayor. Years later, he discovers the boy has become a brilliant but psychopathic serial killer. Tenma must track down his former patient while uncovering a complex conspiracy involving human experiments and political intrigue.",
+            "backdrop_url": "/backdrops/20.png",
             "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/20.png"
         }
     ]
