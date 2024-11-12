@@ -11,7 +11,7 @@ const Detail = () => {
   return (
     <div className='w-full *:w-full' onLoad={window.scrollTo(0, 0)}>
       <Showinfo anime={anime} />
-      <div className='bg-[#181818] flex justify-center *:w-full *:lg:w-[95%] *:rounded-lg'>
+      <div className='bg-[#181818] flex justify-center *:w-full *:lg:w-full *:rounded-lg'>
         <Related anime={anime}/>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Dwnbtn = ({number}) => {
                     <span className='text-sm bg-[#2e2f31fd] text-white font-normal w-[4.5vw] p-2 rounded absolute -top-10 -left-7 invisible group-hover:visible duration-150'>Download</span>
                 </div>
             </span>
-            <p className='font-medium flex justify-center text-center px-3 lg:px-4'><span className='hidden mr-2 lg:block'>Part</span>{(number < 10)?('0'+number):number}</p>
+            <p className='w-full font-medium flex justify-center text-center px-3 lg:px-4'><span className='hidden mr-2 lg:block'>Part</span>{(number < 10)?('0'+number):number}</p>
         </div>
     )
 }
