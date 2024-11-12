@@ -7,7 +7,7 @@
             "views": "10.2K",
             "saved": "5.6K",
             "status": "playing",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Season 4 Completed",
             "seasons": 4,
             "genre": [
@@ -26,7 +26,8 @@
             "card_description": "A gritty animated adaptation of the iconic Castlevania video game series.",
             "detail_description": "Trevor Belmont, the last of his clan, must save Eastern Europe from Vlad Dracula Tepes. Joined by the magician Sypha and Dracula's son Alucard, they battle supernatural creatures while trying to prevent Dracula from enacting his revenge on humanity.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/01.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/01.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/01.png",
+            "episodes": 24
         },
         {
             "id": "ANM002",
@@ -35,7 +36,7 @@
             "views": "15.8K",
             "saved": "8.3K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Final Season Completed",
             "seasons": 4,
             "genre": [
@@ -54,7 +55,8 @@
             "card_description": "Humanity fights for survival against massive, man-eating titans that have overrun the world.",
             "detail_description": "In a world where humanity lives behind walls to protect themselves from man-eating Titans, Eren Yeager joins the military after his hometown is attacked. As he fights against the Titans, dark secrets about their world begin to emerge, challenging everything they believed about their existence.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/02.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/02.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/02.png",
+            "episodes": 86
         },
         {
             "id": "ANM003",
@@ -63,7 +65,7 @@
             "views": "14.3K",
             "saved": "7.8K",
             "status": "playing",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Season 2 Completed",
             "seasons": 2,
             "genre": [
@@ -81,7 +83,8 @@
             "card_description": "A student is recruited into a secret organization to fight against powerful cursed spirits.",
             "detail_description": "After swallowing a cursed object to protect his friends, Yuji Itadori becomes host to the powerful demon Sukuna. Now enrolled in Jujutsu High, he must learn to control cursed energy and fight alongside other sorcerers while keeping Sukuna contained.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/03.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/03.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/03.png",
+            "episodes": 24
         },
         {
             "id": "ANM004",
@@ -90,7 +93,7 @@
             "views": "11.7K",
             "saved": "6.2K",
             "status": "playing",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Season 2 Completed",
             "seasons": 2,
             "genre": [
@@ -108,7 +111,8 @@
             "card_description": "An epic Viking saga of revenge, redemption, and the search for a new homeland.",
             "detail_description": "Young Thorfinn joins his father's killer's band seeking revenge. His journey takes him through the Viking Age, from England to the Danish invasion, as he discovers there might be more to life than vengeance and dreams of a peaceful land called Vinland.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/04.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/04.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/04.png",
+            "episodes": 24
         },
         {
             "id": "ANM005",
@@ -117,7 +121,7 @@
             "views": "13.1K",
             "saved": "6.9K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 4,
             "genre": [
@@ -136,7 +140,8 @@
             "card_description": "A university student's life is changed forever after a horrific encounter with supernatural ghouls.",
             "detail_description": "After surviving a ghoul attack, Ken Kaneki becomes a half-ghoul hybrid through an organ transplant. He must learn to survive in his new life while balancing his humanity with his ghoul nature, protecting his loved ones from threats in both worlds.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/05.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/05.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/05.png",
+            "episodes": 80
         },
         {
             "id": "ANM006",
@@ -145,7 +150,7 @@
             "views": "12.5K",
             "saved": "6.5K",
             "status": "playing",
-            "seasonStatus":"announced",
+            "seasonStatus": "announced",
             "currentStatus": "Season 3 Announced",
             "seasons": 3,
             "genre": [
@@ -163,7 +168,8 @@
             "card_description": "A reincarnated NEET gets a second chance at life in a fantasy world.",
             "detail_description": "After dying, a NEET is reincarnated as Rudeus Greyrat with his memories intact. Determined not to repeat past mistakes, he uses his knowledge and magical talent to forge a new path in a fantasy world, embarking on an epic journey of redemption and self-discovery.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/06.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/06.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/06.png",
+            "episodes": 24
         },
         {
             "id": "ANM007",
@@ -172,7 +178,7 @@
             "views": "13.8K",
             "saved": "7.2K",
             "status": "playing",
-            "seasonStatus":"playing",
+            "seasonStatus": "playing",
             "currentStatus": "Season 3 Playing",
             "seasons": 3,
             "genre": [
@@ -191,7 +197,8 @@
             "card_description": "A young man faces repeated death and rebirth in a fantasy world while protecting those he loves.",
             "detail_description": "Subaru Natsuki is transported to a fantasy world where he gains the ability to 'Return by Death'. As he becomes involved in royal politics and battles against the Witch Cult, he must find a way to protect everyone while maintaining his sanity through repeated deaths.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/07.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/07.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/07.png",
+            "episodes": 24
         },
         {
             "id": "ANM008",
@@ -200,7 +207,7 @@
             "views": "10.9K",
             "saved": "5.8K",
             "status": "playing",
-            "seasonStatus":"announced",
+            "seasonStatus": "announced",
             "currentStatus": "Season 2 Announced",
             "seasons": 1,
             "genre": [
@@ -218,7 +225,8 @@
             "card_description": "An immortal mage explores the meaning of mortality and human connections.",
             "detail_description": "After defeating the Demon King, the elven mage Frieren begins a journey to understand humanity. As her former companions age and pass away, she takes on an apprentice and revisits places from her past adventure, finding new meaning in old memories.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/08.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/08.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/08.png",
+            "episodes": 12
         },
         {
             "id": "ANM009",
@@ -227,7 +235,7 @@
             "views": "11.2K",
             "saved": "5.9K",
             "status": "playing",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Season 1 Completed",
             "seasons": 1,
             "genre": [
@@ -245,7 +253,8 @@
             "card_description": "A man with the power to become a kaiju fights to protect humanity.",
             "detail_description": "Kafka Hibino, a kaiju corpse cleanup worker, gains the ability to transform into a humanoid kaiju. While pursuing his dream of joining the Defense Force, he must balance protecting humanity with keeping his identity secret in a world constantly threatened by kaiju attacks.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/09.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/09.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/09.png",
+            "episodes": 12
         },
         {
             "id": "ANM010",
@@ -254,7 +263,7 @@
             "views": "12.8K",
             "saved": "6.7K",
             "status": "playing",
-            "seasonStatus":"announced",
+            "seasonStatus": "announced",
             "currentStatus": "Season 3 Announced",
             "seasons": 2,
             "genre": [
@@ -272,7 +281,8 @@
             "card_description": "A doctor is reincarnated as the child of his favorite idol.",
             "detail_description": "Dr. Goro, a devoted fan of idol Ai Hoshino, is reborn as her son alongside a fan reborn as his twin sister. Together they navigate the dark side of the entertainment industry while trying to protect their mother and uncover the truth behind dangerous conspiracies.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/10.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/10.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/10.png",
+            "episodes": 24
         },
         {
             "id": "ANM011",
@@ -281,7 +291,7 @@
             "views": "9.5K",
             "saved": "5.1K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 1,
             "genre": [
@@ -300,7 +310,8 @@
             "card_description": "A teenager becomes a demon-human hybrid to protect humanity.",
             "detail_description": "Akira Fudo becomes a Devilman to protect humanity from demons. As he fights alongside his friend Ryo, he struggles to maintain his humanity while facing increasing violence and moral complexity in a world descending into chaos.",
             "backdrop_url": "/backdrops/11.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/11.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/11.png",
+            "episodes": 24
         },
         {
             "id": "ANM012",
@@ -309,7 +320,7 @@
             "views": "13.4K",
             "saved": "7.1K",
             "status": "playing",
-            "seasonStatus":"hiatus",
+            "seasonStatus": "hiatus",
             "currentStatus": "Series on Hiatus",
             "seasons": 1,
             "genre": [
@@ -327,7 +338,8 @@
             "card_description": "Follow Monkey D. Luffy and his pirate crew in their search for the ultimate treasure, the One Piece.",
             "detail_description": "In a world of pirates, Monkey D. Luffy, a young man made of rubber after eating a Devil Fruit, sets off on an epic adventure to find the legendary One Piece treasure and become the Pirate King. Along the way, he builds a diverse crew of loyal companions, each with their own dreams and unique abilities.",
             "backdrop_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/backdrops/show-backdrop-01.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/12.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/12.png",
+            "episodes": 1130
         },
         {
             "id": "ANM013",
@@ -336,7 +348,7 @@
             "views": "10.7K",
             "saved": "5.5K",
             "status": "playing",
-            "seasonStatus":"playing",
+            "seasonStatus": "playing",
             "currentStatus": "TYBW Ongoing",
             "seasons": 4,
             "genre": [
@@ -354,7 +366,8 @@
             "card_description": "A teenage Soul Reaper battles evil spirits while protecting the living world.",
             "detail_description": "Ichigo Kurosaki gains the powers of a Soul Reaper from Rukia Kuchiki. Now he must balance his life as a high school student while protecting both the living world and Soul Society from evil spirits called Hollows, leading to increasingly dangerous battles and revelations about his own heritage.",
             "backdrop_url": "/backdrops/13.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/13.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/13.png",
+            "episodes": 366
         },
         {
             "id": "ANM014",
@@ -363,7 +376,7 @@
             "views": "14.6K",
             "saved": "7.8K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 2,
             "genre": [
@@ -381,7 +394,8 @@
             "card_description": "Two brothers seek the Philosopher's Stone to restore their bodies after a failed alchemical ritual.",
             "detail_description": "Edward and Alphonse Elric, two young alchemist brothers, attempt to resurrect their dead mother using forbidden alchemy. When the ritual fails, Ed loses an arm and leg while Al loses his entire body, his soul bound to a suit of armor. They embark on a journey to find the Philosopher's Stone to restore their bodies, uncovering a nationwide conspiracy in the process.",
             "backdrop_url": "/backdrops/14.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/14.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/14.png",
+            "episodes": 52
         },
         {
             "id": "ANM015",
@@ -390,7 +404,7 @@
             "views": "12.3K",
             "saved": "6.4K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 1,
             "genre": [
@@ -408,7 +422,8 @@
             "card_description": "A young ninja seeks recognition and dreams of becoming the leader of his village.",
             "detail_description": "Naruto Uzumaki, a mischievous ninja with the Nine-Tailed Fox sealed within him, dreams of becoming the Hokage, his village's leader and strongest ninja. Through determination and loyal friendships, he faces increasingly powerful enemies while uncovering the truth about his world's complicated history and his own heritage.",
             "backdrop_url": "/backdrops/15.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/15.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/15.png",
+            "episodes": 500
         },
         {
             "id": "ANM016",
@@ -417,7 +432,7 @@
             "views": "11.8K",
             "saved": "6.3K",
             "status": "hiatus",
-            "seasonStatus":"hiatus",
+            "seasonStatus": "hiatus",
             "currentStatus": "Series on Hiatus",
             "seasons": 6,
             "genre": [
@@ -435,7 +450,8 @@
             "card_description": "A young boy takes the Hunter Exam to find his father while making friends and facing dangerous challenges.",
             "detail_description": "Gon Freecss aspires to become a Hunter, an elite member of society, hoping to find his father. Along his journey, he makes close friends including Killua, Kurapika, and Leorio, each with their own motivations. Together they face increasingly difficult challenges that test their abilities, friendship, and resolve.",
             "backdrop_url": "/backdrops/16.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/16.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/16.png",
+            "episodes": 148
         },
         {
             "id": "ANM017",
@@ -444,7 +460,7 @@
             "views": "10.1K",
             "saved": "5.2K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 2,
             "genre": [
@@ -462,7 +478,8 @@
             "card_description": "A self-proclaimed mad scientist accidentally invents time travel, leading to devastating consequences.",
             "detail_description": "Rintaro Okabe, a self-proclaimed mad scientist, accidentally discovers a way to send messages to the past using a modified microwave. As he and his friends experiment with their discovery, they become entangled in a conspiracy involving SERN and must face the dire consequences of changing the past.",
             "backdrop_url": "/backdrops/17.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/17.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/17.png",
+            "episodes": 24
         },
         {
             "id": "ANM018",
@@ -471,7 +488,7 @@
             "views": "13.9K",
             "saved": "7.4K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 3,
             "genre": [
@@ -489,7 +506,8 @@
             "card_description": "An orphaned girl discovers a family cursed to transform into zodiac animals when embraced.",
             "detail_description": "Tohru Honda, recently orphaned, encounters the Soma family, who are cursed to transform into Chinese zodiac animals when hugged by the opposite sex. As she becomes involved in their lives, she helps them deal with their curse while uncovering dark family secrets and finding love.",
             "backdrop_url": "/backdrops/18.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/18.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/18.png",
+            "episodes": 12
         },
         {
             "id": "ANM019",
@@ -498,7 +516,7 @@
             "views": "11.4K",
             "saved": "6.0K",
             "status": "hiatus",
-            "seasonStatus":"hiatus",
+            "seasonStatus": "hiatus",
             "currentStatus": "Series on Hiatus",
             "seasons": 2,
             "genre": [
@@ -516,7 +534,8 @@
             "card_description": "A lone mercenary seeks revenge against his former friend who betrayed everything he held dear.",
             "detail_description": "Guts, a former mercenary now known as the Black Swordsman, seeks revenge against his former leader and friend Griffith, who sacrificed the Band of the Hawk during a demonic ritual to become a powerful demon lord. The dark fantasy tale explores themes of fate, free will, and the nature of humanity.",
             "backdrop_url": "/backdrops/19.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/19.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/19.png",
+            "episodes": 24
         },
         {
             "id": "ANM020",
@@ -525,7 +544,7 @@
             "views": "12.7K",
             "saved": "6.8K",
             "status": "completed",
-            "seasonStatus":"completed",
+            "seasonStatus": "completed",
             "currentStatus": "Series Completed",
             "seasons": 1,
             "genre": [
@@ -543,7 +562,8 @@
             "card_description": "A brilliant surgeon's life unravels after saving a young boy who grows up to be a serial killer.",
             "detail_description": "Dr. Kenzo Tenma, a brilliant neurosurgeon in Germany, chooses to save a young boy instead of the mayor. Years later, he discovers the boy has become a brilliant but psychopathic serial killer. Tenma must track down his former patient while uncovering a complex conspiracy involving human experiments and political intrigue.",
             "backdrop_url": "/backdrops/20.png",
-            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/20.png"
+            "card_url": "https://rzw-gh.github.io/movie-streaming-website/images/show/posters/20.png",
+            "episodes": 76
         }
     ]
 }
