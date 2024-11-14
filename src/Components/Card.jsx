@@ -24,7 +24,7 @@ const Card = ({ anime }) => {
 
   return (
     <div className="pt-10">
-      <div className="relative h-[40vh] w-10/12 overflow-visible" ref={cardRef}>
+      <div className="relative h-[40vh] w-10/12 overflow-visible lg:h-[50vh] xl:h-[40vh]" ref={cardRef}>
         <div className="h-full flex flex-col justify-between">
           <Link to={`/detail/${anime.id}`} className="w-full h-[80%] rounded-2xl relative md:h-[86%] group overflow-visible" onMouseEnter={() => setShowInfo(true)} onMouseLeave={() => setShowInfo(false)} >
             <div className="relative w-full h-full rounded-2xl overflow-hidden">
@@ -43,7 +43,7 @@ const Card = ({ anime }) => {
               </div>
             </div>
 
-            <div ref={infoRef} className={`hidden absolute z-40 w-72 h-[128%] bg-[#252525] rounded-2xl p-2 shadow-lg  ${infoPosition === 'right' ? ' -ml-1' : 'right-full -mr-4'} top-[52%] -left-0 -translate-y-1/2 transition-all duration-300 ease-out ${showInfo ? (infoPosition === 'right' ? 'translate-x-3/4' : '-translate-x-full') : 'translate-x-0 opacity-0'} opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto md:block *:mb-3`}
+            <div ref={infoRef} className={`hidden absolute z-40 w-72 h-[128%] lg:h-[105%] xl:h-[128%] bg-[#252525] rounded-2xl p-2 shadow-lg  ${infoPosition === 'right' ? ' -ml-1' : 'right-full -mr-4'} top-[52%] -left-0 -translate-y-1/2 transition-all duration-300 ease-out ${showInfo ? (infoPosition === 'right' ? 'translate-x-3/4' : '-translate-x-full') : 'translate-x-0 opacity-0'} opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto md:block *:mb-3`}
               style={{ transformOrigin: infoPosition === 'right' ? 'left center' : 'right center ' }} >
               <div id="title" className='flex items-end justify-between px-2 relative !mb-7'>
                 <h2 className='font-semibold text-xl overflow-hidden pt-2'>{anime.title}</h2>
@@ -55,11 +55,11 @@ const Card = ({ anime }) => {
                 <span>{anime.type}</span>
                 <span>{anime.status}</span>
               </div>
-              <div className='w-11/12 float-end *:float-end *:font-medium *:text-end *:text-sm *:lg:text-base'>
+              <div className='w-11/12 float-end *:float-end *:font-medium *:text-end *:text-sm *:xl:text-base'>
                 <span className='mb-2'>{anime.card_description}</span>
                 <span>Seasons: {anime.seasons}</span>
               </div>
-              <div id="genre" className='w-11/12 float-end *:text-end *:font-medium *:text-sm *:lg:text-base *:mb-3'>
+              <div id="genre" className='w-11/12 float-end *:text-end *:font-medium *:text-sm *:xl:text-base *:mb-3'>
                 <h1>Genre: &nbsp;
                   {
                     
@@ -70,8 +70,8 @@ const Card = ({ anime }) => {
                 </h1>
                 <h1>Boradcast date: {anime.broadcast_date}</h1>
               </div>
-              <div id="buttons" className='w-full px-2 pr-4 h-16 lg:h-20 flex items-center justify-between absolute -bottom-4 lg:-bottom-4 *:bg-[#ffa629] *:px-2 *:py-1 *:rounded-md '>
-                <button className='w-1/4 h-3/5 flex items-center justify-center'><i className="fa-solid fa-share-nodes lg:fa-xl"></i></button>
+              <div id="buttons" className='w-full px-2 pr-4 h-16 xl:h-20 flex items-center justify-between absolute -bottom-4 xl:-bottom-4 *:bg-[#ffa629] *:px-2 *:py-1 *:rounded-md '>
+                <button className='w-1/4 h-3/5 flex items-center justify-center'><i className="fa-solid fa-share-nodes xl:fa-xl"></i></button>
                 <button className='w-3/5 h-3/5 flex items-center justify-center'>view</button>
               </div>
             </div>

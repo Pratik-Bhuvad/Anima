@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-      <div className='w-screen lg:w-[calc(100vw-17px)]'>
+      <div className='w-screen xl:w-[calc(100vw-17px)]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/detail/:id' element={<Detail />} />
