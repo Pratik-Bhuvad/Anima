@@ -4,7 +4,7 @@ const Dwnbtn = ({number}) => {
     
     return (
         <div className='w-full flex items-center justify-between p-3.5 px-0 bg-[#ededed] text-black rounded-md'>
-            <span className='w-2/4 relative h-full items-center justify-evenly hidden xl:flex'>
+            <span className='w-3/4 relative h-full items-center justify-evenly hidden xl:flex'>
                 <div className='relative group'>
                     <i className="fa-solid fa-play fa-xl cursor-pointer duration-75 hover:text-[#ffa629]"></i>
                     <span className='text-sm bg-[#2e2f31fd] text-white font-normal w-[4.5vw] p-2 rounded absolute -top-10 -left-7 invisible group-hover:visible duration-150'>Play online</span>

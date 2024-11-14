@@ -65,7 +65,7 @@ const CardCarosuel = (props) => {
   return (
     <div className='w-full h-[50vh] flex flex-col justify-between box-border backdrop-blur-md mb-12 lg:h-[60vh] xl:h-[50vh]'>
       <div id="head" className={`w-full flex items-center justify-between px-5 xl:px-16 ${(heading)?'':'hidden'}`}> <View /> <h2 className='font-bold xl:text-3xl'>{props.title}</h2> </div>
-      <div id="slider" className='w-full h-full relative flex justify-center items-center pl-8 '>
+      <div id="slider" className='w-full h-full relative flex justify-center items-center pl-3 md:pl-8'>
         <Slider ref={sliderRef} {...settings} className='w-[95%] !flex !flex-row-reverse !items-center md:w-[90%] xl:w-[95%] z-50'>
           {animeData.animes.slice(props.start, props.end).map((anime, index) => (
             <Card key={index} anime={anime} />

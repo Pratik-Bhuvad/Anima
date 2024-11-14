@@ -23,10 +23,11 @@ const Download = ({ ep }) => {
             setShow(!show);
         }
     };
+    
 
     return (
         <div className="h-auto mx-auto flex flex-col items-center bg-[#2a2b2e] py-5 md:w-[95%] xl:px-7 *:py-2">
-            <button className="flex items-center justify-evenly w-1/4 font-semibold h-10 xl:w-[12%] xl:text-xl" onClick={handleToggle} >
+            <button className="flex items-center justify-evenly w-3/5 font-semibold h-10 xl:w-[12%] xl:text-xl" onClick={handleToggle} >
                 <i className={`fa-solid fa-angle-${show ? 'down' : 'up pt-[5px]'} fa-lg`}></i>
                 The First Chapter
             </button>
@@ -42,9 +43,9 @@ const Download = ({ ep }) => {
                         <i className="fa-regular fa-bell pt-1"></i>
                     </div>
                 </div>
-
+                
                 <div id="download_links" className="w-full flex flex-col-reverse items-start justify-between gap-y-5 xl:flex-row">
-                    <div id="epsiodes" className={`w-full grid ${(episodeNumbers <= 24) ? 'grid-cols-2 xl:grid-cols-4 ' : 'grid-cols-6 lg:grid-cols-8 xl:grid-cols-6'} gap-3 xl:gap-10 xl:w-4/5`}>
+                    <div id="epsiodes" className={`w-full grid ${(episodeNumbers.length <= 24) ? 'grid-cols-2 xl:grid-cols-4 ' : 'grid-cols-6 lg:grid-cols-8 xl:grid-cols-6'} gap-3 xl:gap-10 xl:w-4/5`}>
                         {episodeNumbers.slice(0, 100).map((number) => (
                             <Dwnbtn key={number} number={number} />
                         ))

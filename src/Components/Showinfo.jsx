@@ -20,7 +20,7 @@ const Showinfo = ({ anime }) => {
                         shared <i className="fa-solid fa-crown ml-1"></i>
                     </div>
                 )}
-                <button className="absolute left-1/4 bottom-2 bg-[#FFa629] text-xs !rounded-md w-3/6 h-[10%] flex items-center justify-evenly xl:text-2xl xl:-bottom-7 text-black px-2 md:left-16 lg:w-1/4 xl:left-1/4">Play Online <i className="bi bi-play text-2xl xl:text-4xl"></i></button>
+                <button className="absolute left-1/4 bottom-2 bg-[#FFa629] text-xs !rounded-md w-3/6 h-[10%] flex items-center justify-evenly xl:text-2xl xl:-bottom-7 text-black px-2 md:left-16 lg:w-1/4 xl:w-3/6 xl:left-1/4">Play Online <i className="bi bi-play text-2xl xl:text-4xl"></i></button>
             </div>
             <div id="info" className='h-full flex w-full flex-col gap-y-1 justify-between md:justify-center md:gap-y-5 xl:justify-between xl:items-end xl:w-3/5'>
                 <h1 className="text-sm font-semibold xl:text-[2.5rem]">Anime: {anime.title}</h1>
