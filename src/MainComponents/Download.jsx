@@ -26,8 +26,8 @@ const Download = ({ ep }) => {
     
 
     return (
-        <div className="h-auto mx-auto flex flex-col items-center bg-[#2a2b2e] py-5 md:w-[95%] xl:px-7 *:py-2">
-            <button className="flex items-center justify-evenly w-3/5 font-semibold h-10 xl:w-[12%] xl:text-xl" onClick={handleToggle} >
+        <div className="h-auto mx-auto flex flex-col items-center bg-[#2a2b2e] py-5 md:w-[95%] lg:px-7 *:py-2">
+            <button className="flex items-center justify-evenly w-3/5 font-semibold h-10 md:w-1/4 xl:w-[12%] lg:text-xl" onClick={handleToggle} >
                 <i className={`fa-solid fa-angle-${show ? 'down' : 'up pt-[5px]'} fa-lg`}></i>
                 The First Chapter
             </button>
@@ -44,20 +44,20 @@ const Download = ({ ep }) => {
                     </div>
                 </div>
                 
-                <div id="download_links" className="w-full flex flex-col-reverse items-start justify-between gap-y-5 xl:flex-row">
-                    <div id="epsiodes" className={`w-full grid ${(episodeNumbers.length <= 24) ? 'grid-cols-2 xl:grid-cols-4 ' : 'grid-cols-6 lg:grid-cols-8 xl:grid-cols-6'} gap-3 xl:gap-10 xl:w-4/5`}>
+                <div id="download_links" className="w-full flex flex-col-reverse items-start justify-between gap-y-5 lg:flex-row">
+                    <div id="epsiodes" className={`w-full grid ${(episodeNumbers.length <= 24) ? 'grid-cols-2 lg:grid-cols-4 ' : 'grid-cols-6'} gap-3 xl:gap-10 xl:w-4/5`}>
                         {episodeNumbers.slice(0, 100).map((number) => (
                             <Dwnbtn key={number} number={number} />
                         ))
                         }
                     </div>
-                    <div id="quality" className="w-full grid grid-cols-3 gap-y-3 justify-items-center *:w-4/6 xl:w-1/6 xl:grid-cols-1 xl:gap-10">
-                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">1080</button>
-                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">720</button>
-                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">480</button>
-                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md hidden xl:block"> Search <i className="fa-solid fa-magnifying-glass xl:ml-3"></i> </button>
-                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md hidden xl:block"> Copy Links <i className="fa-regular fa-copy xl:ml-2"></i> </button>
-                        <div className="col-start-1 col-span-3 flex gap-x-3 items-center xl:flex-col xl:hidden">
+                    <div id="quality" className="w-full grid grid-cols-3 gap-y-3 justify-items-center *:w-4/6 lg:w-1/6 lg:grid-cols-1 lg:gap-10">
+                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">1080p</button>
+                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">720p</button>
+                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md">480p</button>
+                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md hidden lg:block"> Search <i className="fa-solid fa-magnifying-glass xl:ml-3"></i> </button>
+                        <button className="p-3.5 px-0 bg-[#ededed] text-black rounded-md hidden lg:block"> Copy Links <i className="fa-regular fa-copy xl:ml-2"></i> </button>
+                        <div className="col-start-1 col-span-3 flex gap-x-3 items-center xl:flex-col lg:hidden">
                             <button className="w-1/2 p-3.5 px-0 bg-[#ededed] text-black rounded-md block xl:hidden"> Search <i className="fa-solid fa-magnifying-glass xl:ml-3"></i> </button>
                             <button className="w-1/2 p-3.5 px-0 bg-[#ededed] text-black rounded-md block xl:hidden"> Copy Links <i className="fa-regular fa-copy xl:ml-2"></i> </button>
                         </div>
