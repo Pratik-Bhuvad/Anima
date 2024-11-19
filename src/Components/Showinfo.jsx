@@ -23,7 +23,7 @@ const Showinfo = ({ anime }) => {
                 <button className="absolute left-1/4 bottom-2 bg-[#FFa629] text-xs !rounded-md w-3/6 h-[10%] flex items-center justify-evenly xl:text-2xl lg:-bottom-7 text-black px-2 md:left-16 lg:w-3/6 lg:left-1/4">Play Online <i className="bi bi-play text-2xl xl:text-4xl"></i></button>
             </div>
             <div id="info" className='h-full flex w-full flex-col gap-y-1 justify-between md:justify-center md:gap-y-5 lg:justify-evenly lg:items-end lg:w-2/5 xl:w-3/5'>
-                <h1 className="text-sm font-semibold lg:text-[2.5rem]">Anime: {anime.title}</h1>
+                <h1 className="text-sm font-semibold lg:text-[2rem]">Anime: {anime.title}</h1>
                 <p className='flex text-sm gap-1 flex-col lg:gap-2 lg:font-medium lg:items-end lg:text-base'>
                     {anime.title}: {anime.title}
                     <span>Genre: &nbsp;

@@ -23,7 +23,7 @@ const Card = ({ anime }) => {
   }, [showInfo]);
 
   return (
-    <div className="pt-10">
+    <div className="md:pt-10">
       <div className="relative h-[40vh] w-10/12 overflow-visible" ref={cardRef}>
         <div className="h-full flex flex-col justify-between">
           <Link to={`/detail/${anime.id}`} className="w-full h-[80%] rounded-2xl relative group overflow-visible" onMouseEnter={() => setShowInfo(true)} onMouseLeave={() => setShowInfo(false)} >
@@ -55,11 +55,11 @@ const Card = ({ anime }) => {
                 <span>{anime.type}</span>
                 <span>{anime.status}</span>
               </div>
-              <div className='w-11/12 float-end *:float-end *:font-medium *:text-end *:text-sm *:lg:text-base'>
+              <div className='w-11/12 float-end *:float-end *:font-medium *:text-end *:text-sm'>
                 <span className='mb-2'>{anime.card_description}</span>
                 <span>Seasons: {anime.seasons}</span>
               </div>
-              <div id="genre" className='w-11/12 float-end *:text-end *:font-medium *:text-sm *:lg:text-base *:mb-3'>
+              <div id="genre" className='w-11/12 float-end *:text-end *:font-medium *:text-sm *:mb-3'>
                 <h1>Genre: &nbsp;
                   {
                     

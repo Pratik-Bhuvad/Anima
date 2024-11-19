@@ -18,7 +18,7 @@ const HeroCarousel = ({slides}) => {
     speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
   };
 
@@ -44,13 +44,13 @@ const HeroCarousel = ({slides}) => {
           
           <div key={index} className='h-[80vh] flex justify-center items-end relative  bg-gradient-to-t from-black via-transparent to-transparent xl:h-[calc(80vh-4.5rem)]'>
             <div className='absolute inset-0' style={{ background: `linear-gradient(90deg,rgba(24,24,24,0.9) 10%,rgba(24,24,24,0.8) 25%,rgba(24,24,24,0.7) 35%,rgba(24,24,24,0.6) 45%,rgba(24,24,24,0.5) 55%, rgba(24,24,24,0.3) 80%, rgba(24,24,24,0) 100%), url(${anime.backdrop_url}) center/cover no-repeat`, zIndex: -1 }} />
-            <div id="animeInfo" className='w-full h-full flex flex-col justify-end pl-12 pb-40 *:my-3 xl:pb-40 xl:w-1/5'>
+            <div id="animeInfo" className='w-full h-full flex flex-col justify-end pl-6 pb-40 md:pl-12 *:my-3 xl:pb-40 xl:w-1/5'>
               <h1 id="title" className='font-bold text-3xl tracking-tighter xl:text=[2vw]'>{anime.title}</h1>
               <div id="rating" className='flex items-center *:mr-5 xl:text-xl'>
                 <span id="mal"><strong className='p-1 px-4 rounded-lg mr-2 tracking-tight text-sm bg-[rgb(32,79,217)] font-sans font-medium xl:text-lg'>MAL</strong>{anime.rating}</span>
                 <span id="imdb"><strong className='p-1 px-4 rounded-lg mr-2 tracking-tight text-sm text-black bg-[rgb(255,166,41)] font-sans font-medium xl:text-lg'>IMDB</strong>{anime.rating}</span>
               </div>
-              <div id="genres" className='w-[63%] flex justify-between *:bg-[rgba(42,43,46,1)] *:rounded-full *:px-[14px] *:py-[6px] *:text-[rgba(126,126,126,1)] *:cursor-pointer *:font-sans *:text-sm md:w-1/3 lg:w-1/4 *:xl:text-base xl:w-3/4'>
+              <div id="genres" className='w-[60vw] flex justify-between *:bg-[rgba(42,43,46,1)] *:rounded-full *:px-[14px] *:py-[6px] *:text-[rgba(126,126,126,1)] *:cursor-pointer *:font-sans *:text-xs md:w-1/3 lg:w-1/4 *:xl:text-base xl:w-3/4'>
                 <span className='hover:text-white delay-100 font-mono'>Isekai</span>
                 <span className='hover:text-white delay-100 font-mono'>Action</span>
                 <span className='hover:text-white delay-100 font-mono'>Fantasy</span>
